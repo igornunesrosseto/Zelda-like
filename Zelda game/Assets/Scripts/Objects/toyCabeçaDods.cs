@@ -31,8 +31,11 @@ public class toyCabeçaDods : Interactable
                 dialogBox.SetActive(false);
 
                 // ao falar com cabeça de dods, perde 1 coin
-                playerInventory.numberOfCoins -= 1;
-                powerupSignal.Raise();
+                if (playerInventory.numberOfCoins > 0)
+                {
+                    playerInventory.numberOfCoins -= 1;
+                    powerupSignal.Raise();
+                }
             }
             else
             {
