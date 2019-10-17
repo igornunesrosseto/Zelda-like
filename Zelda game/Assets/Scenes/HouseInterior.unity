@@ -314,20 +314,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 1406415500505184, guid: 8b14c47883162c84b8da8661c62ce344, type: 2}
-      propertyPath: m_Name
-      value: Main Camera
-      objectReference: {fileID: 0}
     - target: {fileID: 114681550293498848, guid: 8b14c47883162c84b8da8661c62ce344,
         type: 2}
       propertyPath: target
       value: 
       objectReference: {fileID: 1686260403}
-    - target: {fileID: 114681550293498848, guid: 8b14c47883162c84b8da8661c62ce344,
-        type: 2}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b14c47883162c84b8da8661c62ce344, type: 2}
   m_IsPrefabAsset: 0
@@ -1574,6 +1565,30 @@ Prefab:
     - target: {fileID: 4874494272934004, guid: 75f67da2fc2464742873ced40ded2aae, type: 2}
       propertyPath: m_RootOrder
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919196799232644, guid: 75f67da2fc2464742873ced40ded2aae, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
+        type: 2}
+      propertyPath: cameraNewMax.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
+        type: 2}
+      propertyPath: cameraNewMax.y
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
+        type: 2}
+      propertyPath: cameraNewMin.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
+        type: 2}
+      propertyPath: cameraNewMin.y
+      value: -19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f67da2fc2464742873ced40ded2aae, type: 2}
@@ -5668,27 +5683,3 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &2147341424 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1919196799232644, guid: 75f67da2fc2464742873ced40ded2aae,
-    type: 2}
-  m_PrefabInternal: {fileID: 711650576}
---- !u!114 &2147341425
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2147341424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c5289d31ed6b6e4db7d3e4916b3c610, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
-  playerPosition: {x: 5.46, y: -7.8}
-  playerStorage: {fileID: 11400000, guid: 36da18e40d1fa4f41a58ea1be784734d, type: 2}
-  fadeInPanel: {fileID: 1202223833741208, guid: 638045e5b2b14f74fad2365ea565df1b,
-    type: 2}
-  fadeOutPanel: {fileID: 1627507277915610, guid: e7693e5ee5597c945aa8282e70851ca6,
-    type: 2}
-  fadeWait: 0.33

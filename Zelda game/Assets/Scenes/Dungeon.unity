@@ -5084,6 +5084,8 @@ MonoBehaviour:
   maxPosition: {x: 0, y: 0}
   minPosition: {x: 0, y: 0}
   anim: {fileID: 0}
+  camMin: {fileID: 11400000, guid: bd5302536ce37574295108c8d82ff0d9, type: 2}
+  camMax: {fileID: 11400000, guid: 5770429f5f6a1a045a0afc5b298d24b0, type: 2}
 --- !u!114 &613822175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -30947,53 +30949,29 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 61472540077165730, guid: 75f67da2fc2464742873ced40ded2aae,
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
         type: 2}
-      propertyPath: m_Offset.x
-      value: 0.011678219
+      propertyPath: cameraNewMax.x
+      value: 17
       objectReference: {fileID: 0}
-    - target: {fileID: 61472540077165730, guid: 75f67da2fc2464742873ced40ded2aae,
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
         type: 2}
-      propertyPath: m_Size.x
-      value: 1.5017529
+      propertyPath: cameraNewMin.x
+      value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 61472540077165730, guid: 75f67da2fc2464742873ced40ded2aae,
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
         type: 2}
-      propertyPath: m_Offset.y
-      value: 0.48750305
+      propertyPath: cameraNewMax.y
+      value: -31
       objectReference: {fileID: 0}
-    - target: {fileID: 61472540077165730, guid: 75f67da2fc2464742873ced40ded2aae,
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
         type: 2}
-      propertyPath: m_Size.y
-      value: 0.32168198
+      propertyPath: cameraNewMin.y
+      value: -44
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f67da2fc2464742873ced40ded2aae, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1652315558 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1919196799232644, guid: 75f67da2fc2464742873ced40ded2aae,
-    type: 2}
-  m_PrefabInternal: {fileID: 1652315557}
---- !u!114 &1652315559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1652315558}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c5289d31ed6b6e4db7d3e4916b3c610, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
-  playerPosition: {x: 12.4, y: -28}
-  playerStorage: {fileID: 11400000, guid: 36da18e40d1fa4f41a58ea1be784734d, type: 2}
-  fadeInPanel: {fileID: 1202223833741208, guid: 638045e5b2b14f74fad2365ea565df1b,
-    type: 2}
-  fadeOutPanel: {fileID: 1627507277915610, guid: e7693e5ee5597c945aa8282e70851ca6,
-    type: 2}
-  fadeWait: 0.33
 --- !u!4 &1659648970 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4098210286977754, guid: 72111a1a759e32c49aa95115bdd17e18,
