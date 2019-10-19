@@ -10,7 +10,7 @@ public class log : Enemy {
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
-    public Transform homePosition;
+    
 
     [Header("animator")]
     public Animator anim;
@@ -42,7 +42,7 @@ public class log : Enemy {
             {
                 Vector3 temp = Vector3.MoveTowards(transform.position,
                                                          target.position,
-                                                         moveSpeed * Time.deltaTime);
+                                                         moveSpeed * Time.deltaTime); // -1 * moveSpeed * Time.deltaTime); // para se afastar do player
                 changeAnim(temp - transform.position);
                 myRigidbody.MovePosition(temp);
                 ChangeState(EnemyState.walk);

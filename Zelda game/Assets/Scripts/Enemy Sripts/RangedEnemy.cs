@@ -5,14 +5,14 @@ using UnityEngine;
 public class RangedEnemy : log {
 
     public GameObject projectile;
-    public float fireDelay;
-    private float fireDelaySeconds;
+    public float fireDelay;           //
+    private float fireDelaySeconds;  // tempo para recarregar tiro em segundos
     public bool canFire = true;
 
     private void Update()
     {
-        fireDelaySeconds -= Time.deltaTime;
-        if(fireDelaySeconds <= 0)
+        fireDelaySeconds -= Time.deltaTime;  // fireDelaySeconds = fireDelaySeconds - Time.deltaTime;  //
+        if (fireDelaySeconds <= 0)
         {
             canFire = true;
             fireDelaySeconds = fireDelay;
@@ -29,6 +29,7 @@ public class RangedEnemy : log {
             if (currentState == EnemyState.idle || currentState == EnemyState.walk
                 && currentState != EnemyState.stagger)
             {
+
                 if (canFire)
                 {
                     Vector3 tempVector = target.transform.position - transform.position;

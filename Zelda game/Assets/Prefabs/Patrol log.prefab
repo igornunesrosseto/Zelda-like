@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 61653022537000928}
   - component: {fileID: 114630436918281360}
   - component: {fileID: 114233463640819026}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Patrol log
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -151,12 +151,13 @@ MonoBehaviour:
   enemyName: Patrol Log PH
   baseAttack: 1
   moveSpeed: 2
-  deathEffect: {fileID: 0}
+  homePosition: {x: 0, y: 0}
+  deathEffect: {fileID: 1231631423795504, guid: b5b6892aa3c730f4694a85c1bfe6eaf3,
+    type: 2}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 3
   attackRadius: 1
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
   path:
   - {fileID: 0}

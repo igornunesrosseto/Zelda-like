@@ -26,7 +26,7 @@ GameObject:
   - component: {fileID: 61388460891280034}
   - component: {fileID: 114509497219926850}
   - component: {fileID: 114207407015321634}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Log
   m_TagString: enemy
   m_Icon: {fileID: 0}
@@ -151,13 +151,13 @@ MonoBehaviour:
   enemyName: Bob leasher
   baseAttack: 1
   moveSpeed: 1
+  homePosition: {x: 0, y: 0}
   deathEffect: {fileID: 1231631423795504, guid: b5b6892aa3c730f4694a85c1bfe6eaf3,
     type: 2}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 6
   attackRadius: 1
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
   boundary: {fileID: 0}
 --- !u!114 &114509497219926850

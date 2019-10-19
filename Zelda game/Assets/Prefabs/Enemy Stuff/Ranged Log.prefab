@@ -40,7 +40,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1932858645903624}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 43.53, y: -3.44, z: 0.13867188}
+  m_LocalPosition: {x: 18, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -147,21 +147,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentState: 0
   maxHealth: {fileID: 11400000, guid: 31115a927760445ae8df614cd4b9a11b, type: 2}
-  health: 2
+  health: 0
   enemyName: Ranger Log
   baseAttack: 0
   moveSpeed: 0
+  homePosition: {x: 18, y: -2}
   deathEffect: {fileID: 1231631423795504, guid: b5b6892aa3c730f4694a85c1bfe6eaf3,
     type: 2}
-  myRigidbody: {fileID: 0}
+  myRigidbody: {fileID: 50917063287291246}
   target: {fileID: 0}
   chaseRadius: 6
   attackRadius: 0
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
   projectile: {fileID: 1673225724315068, guid: 6c112a3552658314dbf40c8e5b4d7974, type: 2}
-  fireDelay: 1
-  canFire: 1
+  fireDelay: 0.7
+  canFire: 0
 --- !u!114 &114489928148533090
 MonoBehaviour:
   m_ObjectHideFlags: 1

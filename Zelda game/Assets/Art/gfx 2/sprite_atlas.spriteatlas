@@ -179,6 +179,7 @@ SpriteAtlas:
   - {fileID: 21300220, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300216, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300218, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
+  - {fileID: 21300000, guid: 053658f4d5fd2834cb2cdf6a94746dda, type: 3}
   - {fileID: 21300000, guid: 2247469810eda9648a036c75c97e3da1, type: 3}
   - {fileID: 21301654, guid: 275c0a091801c4f3cbf7d43ef7702e68, type: 3}
   - {fileID: 21301674, guid: 275c0a091801c4f3cbf7d43ef7702e68, type: 3}
@@ -1917,6 +1918,7 @@ SpriteAtlas:
   - cave_110
   - cave_108
   - cave_109
+  - door2
   - Dragon
   - Overworld_827
   - Overworld_837
