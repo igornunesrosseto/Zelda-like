@@ -5,10 +5,14 @@ using UnityEngine;
 public class log : Enemy {
 
     public Rigidbody2D myRigidbody;
+
+    [Header("Target Variables")]
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
     public Transform homePosition;
+
+    [Header("animator")]
     public Animator anim;
 
 
@@ -77,7 +81,7 @@ public class log : Enemy {
         }
     }
 
-    private void ChangeState(EnemyState newState){
+    public void ChangeState(EnemyState newState){
         if(currentState != newState)
         {
             currentState = newState;

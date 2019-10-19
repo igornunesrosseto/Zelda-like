@@ -24,7 +24,7 @@ GameObject:
   m_Layer: 0
   m_Name: Scene Transition
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -80,10 +80,10 @@ MonoBehaviour:
   sceneToLoad: SampleScene
   playerPosition: {x: 12.4, y: -28}
   playerStorage: {fileID: 11400000, guid: 36da18e40d1fa4f41a58ea1be784734d, type: 2}
-  cameraNewMax: {x: 27, y: -32}
-  cameraNewMin: {x: 18, y: -60}
-  cameraMin: {fileID: 11400000, guid: a842d235ff739db48a2c82a3a1ce8e5f, type: 2}
-  cameraMax: {fileID: 11400000, guid: 796a42d9520f7874f9aad97216d91354, type: 2}
+  cameraNewMax: {x: 17, y: -31}
+  cameraNewMin: {x: 8, y: -44}
+  cameraMin: {fileID: 11400000, guid: 366048b4938f54146aed979223a4386c, type: 2}
+  cameraMax: {fileID: 11400000, guid: 5499a8eab3760844cb4d99043f2600e5, type: 2}
   fadeInPanel: {fileID: 1202223833741208, guid: 638045e5b2b14f74fad2365ea565df1b,
     type: 2}
   fadeOutPanel: {fileID: 1627507277915610, guid: e7693e5ee5597c945aa8282e70851ca6,

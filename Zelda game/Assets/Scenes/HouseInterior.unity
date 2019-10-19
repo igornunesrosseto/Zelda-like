@@ -1566,29 +1566,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1919196799232644, guid: 75f67da2fc2464742873ced40ded2aae, type: 2}
-      propertyPath: m_IsActive
-      value: 0
+    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
+        type: 2}
+      propertyPath: playerPosition.x
+      value: 5.5
       objectReference: {fileID: 0}
     - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
         type: 2}
-      propertyPath: cameraNewMax.x
-      value: 17
-      objectReference: {fileID: 0}
-    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
-        type: 2}
-      propertyPath: cameraNewMax.y
-      value: -6
-      objectReference: {fileID: 0}
-    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
-        type: 2}
-      propertyPath: cameraNewMin.x
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 114849302803033412, guid: 75f67da2fc2464742873ced40ded2aae,
-        type: 2}
-      propertyPath: cameraNewMin.y
-      value: -19
+      propertyPath: playerPosition.y
+      value: -7.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75f67da2fc2464742873ced40ded2aae, type: 2}
@@ -1770,8 +1756,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 880758416}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5015, y: 5.0027, z: 10}
-  m_LocalScale: {x: 0.06374138, y: 0.08227426, z: 1}
+  m_LocalPosition: {x: 0.467, y: 5.0027, z: 10}
+  m_LocalScale: {x: 0.07083375, y: 0.08227426, z: 1}
   m_Children: []
   m_Father: {fileID: 967534975}
   m_RootOrder: 1
@@ -2916,7 +2902,7 @@ MonoBehaviour:
   context: {fileID: 11400000, guid: fb83a87aef4884d4caca19de8de6e2b1, type: 2}
   dialogBox: {fileID: 1483753638}
   dialogText: {fileID: 1556699614}
-  dialog: "Minha estatueta de drag\xE3o... um pouco empoeirada."
+  dialog: "Uma est\xE1tua de Drag\xE3o... raros de se encontrar nessa regi\xE3o."
 --- !u!61 &1243840180
 BoxCollider2D:
   m_ObjectHideFlags: 0

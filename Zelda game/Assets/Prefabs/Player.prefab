@@ -184,7 +184,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1788604490452116}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.655, y: -13.275, z: 0}
+  m_LocalPosition: {x: 0.7311797, y: -3.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4107631356202472}
@@ -603,7 +603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentState: 0
-  speed: 8
+  speed: 16
   currentHealth: {fileID: 11400000, guid: d2056c37fff324b6cb19ce1eff22f208, type: 2}
   playerHealthSignal: {fileID: 11400000, guid: bced594b110fa4728b35d89a74a89552, type: 2}
   startingPosition: {fileID: 11400000, guid: 36da18e40d1fa4f41a58ea1be784734d, type: 2}
