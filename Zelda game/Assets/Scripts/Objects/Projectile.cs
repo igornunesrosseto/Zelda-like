@@ -22,7 +22,7 @@ public class Projectile : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        lifetimeSeconds = -Time.deltaTime;
+        lifetimeSeconds -= Time.deltaTime;
         if(lifetimeSeconds <= 0)
         {
             Destroy(this.gameObject);
