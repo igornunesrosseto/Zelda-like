@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: ea07022d532de4c96860cbac1793550f, type: 3}
-    totalSpriteSurfaceArea: 1178105
+    totalSpriteSurfaceArea: 1179145
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -182,7 +182,9 @@ SpriteAtlas:
   - {fileID: 21300216, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300218, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300000, guid: 053658f4d5fd2834cb2cdf6a94746dda, type: 3}
+  - {fileID: 21300000, guid: e20a3a25b6f7a234d86bb5c9231cae10, type: 3}
   - {fileID: 21300000, guid: 2247469810eda9648a036c75c97e3da1, type: 3}
+  - {fileID: 21300000, guid: 6c4d2709c31f4fe45b11e5685ad99668, type: 3}
   - {fileID: 21301654, guid: 275c0a091801c4f3cbf7d43ef7702e68, type: 3}
   - {fileID: 21301674, guid: 275c0a091801c4f3cbf7d43ef7702e68, type: 3}
   - {fileID: 21301694, guid: 275c0a091801c4f3cbf7d43ef7702e68, type: 3}
@@ -1666,6 +1668,7 @@ SpriteAtlas:
   - {fileID: 21300084, guid: d99fbb5902ad344b9b78d7afa0a12b5b, type: 3}
   - {fileID: 21300086, guid: d99fbb5902ad344b9b78d7afa0a12b5b, type: 3}
   - {fileID: 21300000, guid: fe206d59803415943bea54dfeb263e81, type: 3}
+  - {fileID: 21300000, guid: f35a36c9bf171fc468f81bdbee67fc7b, type: 3}
   - {fileID: 21300028, guid: a9f4791a3e68b423c932d4299d8340a4, type: 3}
   - {fileID: 21300030, guid: a9f4791a3e68b423c932d4299d8340a4, type: 3}
   - {fileID: 21300032, guid: a9f4791a3e68b423c932d4299d8340a4, type: 3}
@@ -1771,6 +1774,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 021b09bc8caaa4f72a1a657148cac6cd, type: 3}
   - {fileID: 21300000, guid: e92e12cc9db055b4680fa74a9e563321, type: 3}
   - {fileID: 21300000, guid: 0807b21d17e3a4806be0ab8aec39b4b5, type: 3}
+  - {fileID: 21300000, guid: 7ac29c1d26500d148ad8a8e5a4f0167e, type: 3}
   - {fileID: 21300004, guid: 5216ae3d909dee0468ab880257508855, type: 3}
   - {fileID: 21300006, guid: 5216ae3d909dee0468ab880257508855, type: 3}
   - {fileID: 21300000, guid: 5216ae3d909dee0468ab880257508855, type: 3}
@@ -1814,6 +1818,7 @@ SpriteAtlas:
   - {fileID: 21300026, guid: 11d4bf4ded462694785545b1805fb054, type: 3}
   - {fileID: 21300020, guid: 11d4bf4ded462694785545b1805fb054, type: 3}
   - {fileID: 21300022, guid: 11d4bf4ded462694785545b1805fb054, type: 3}
+  - {fileID: 21300000, guid: c4f2d6bd20a2213479dbd723d9247a80, type: 3}
   - {fileID: 21300000, guid: 932e98fe666d236428e71a40716f6262, type: 3}
   - {fileID: 21300000, guid: f2c448bf99ce96b43ba7baeca2a32b5c, type: 3}
   m_PackedSpriteNamesToIndex:
@@ -1953,7 +1958,9 @@ SpriteAtlas:
   - cave_108
   - cave_109
   - door2
+  - magic bottle
   - Dragon
+  - bow
   - Overworld_827
   - Overworld_837
   - Overworld_847
@@ -3437,6 +3444,7 @@ SpriteAtlas:
   - Inner_42
   - Inner_43
   - key
+  - Circle
   - character_14
   - character_15
   - character_16
@@ -3542,6 +3550,7 @@ SpriteAtlas:
   - NPC_test
   - Xico
   - font
+  - arrow
   - dog_2
   - dog_3
   - dog_0
@@ -3585,6 +3594,7 @@ SpriteAtlas:
   - orge attack sprites_13
   - orge attack sprites_10
   - orge attack sprites_11
+  - magic bar
   - door
   - poop
   m_Tag: sprite_atlas

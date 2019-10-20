@@ -19,15 +19,23 @@ public class PlayerMovement : MonoBehaviour {
     private Vector3 change;
     private Animator animator;
     public FloatValue currentHealth;
-    public Signal playerHealthSignal;
     public VectorValue startingPosition;
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
+    
+    [Header("Projectile Stuff")]
+    public GameObject projectile;
+    public Item bow;
+
+
+    public Signal playerHealthSignal;
     public Signal playerHit;
+    public Signal reduceMagic;
 
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
         currentState = PlayerState.walk;
         animator = GetComponent<Animator>();
         myRigidbody = GetComponent<Rigidbody2D>();
@@ -52,6 +60,14 @@ public class PlayerMovement : MonoBehaviour {
         {
             StartCoroutine(AttackCo());
         }
+        else if (Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack
+           && currentState != PlayerState.stagger)
+        {
+            if (playerInventory.CheckForItem(bow))
+            {
+                StartCoroutine(SecondAttackCo());
+            }
+        }
         else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
@@ -69,6 +85,38 @@ public class PlayerMovement : MonoBehaviour {
         {
             currentState = PlayerState.walk;
         }
+    }
+
+    private IEnumerator SecondAttackCo()
+    {
+        // animator.SetBool("attacking", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeArrow();
+        // animator.SetBool("attacking", false);
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+    }
+
+    private void MakeArrow()
+    {
+        if (playerInventory.currentMagic > 0)
+        {
+            Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+            Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
+            arrow.Setup(temp, ChooseArrowDirection());
+            playerInventory.ReduceMagic(arrow.magicCost);
+            reduceMagic.Raise();
+        }
+    }
+
+    Vector3 ChooseArrowDirection()
+    {
+        float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX"))*Mathf.Rad2Deg;
+        return new Vector3(0, 0, temp);
     }
 
     public void RaiseItem()
