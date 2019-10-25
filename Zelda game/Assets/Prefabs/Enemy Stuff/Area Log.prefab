@@ -213,6 +213,7 @@ MonoBehaviour:
   homePosition: {x: 0, y: 0}
   deathEffect: {fileID: 1231631423795504, guid: b5b6892aa3c730f4694a85c1bfe6eaf3,
     type: 3}
+  thisLoot: {fileID: 0}
   roomSignal: {fileID: 0}
   myRigidbody: {fileID: 0}
   target: {fileID: 0}

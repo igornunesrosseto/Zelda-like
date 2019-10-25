@@ -57,7 +57,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1788604490452116, guid: 969881799f1008e438c9ebdf200abd76, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4288702362232676, guid: 969881799f1008e438c9ebdf200abd76, type: 3}
       propertyPath: m_LocalPosition.x
@@ -91,21 +91,11 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 114151743752277378, guid: 969881799f1008e438c9ebdf200abd76,
-        type: 3}
-      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 3061435546047087768}
     - target: {fileID: 114721621391532364, guid: 969881799f1008e438c9ebdf200abd76,
         type: 3}
       propertyPath: contextClue
       value: 
       objectReference: {fileID: 3165532034710771000}
-    - target: {fileID: 114683534707683220, guid: 969881799f1008e438c9ebdf200abd76,
-        type: 3}
-      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 3061405943887607546}
     - target: {fileID: 114764412993000238, guid: 969881799f1008e438c9ebdf200abd76,
         type: 3}
       propertyPath: speed
@@ -116,6 +106,16 @@ PrefabInstance:
       propertyPath: receivedItemSprite
       value: 
       objectReference: {fileID: 2961330919190875614}
+    - target: {fileID: 114683534707683220, guid: 969881799f1008e438c9ebdf200abd76,
+        type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3061405943887607546}
+    - target: {fileID: 114151743752277378, guid: 969881799f1008e438c9ebdf200abd76,
+        type: 3}
+      propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 3061435546047087768}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 969881799f1008e438c9ebdf200abd76, type: 3}
 --- !u!1 &3165331736039381794 stripped

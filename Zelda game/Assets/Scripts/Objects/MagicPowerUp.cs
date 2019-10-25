@@ -14,7 +14,7 @@ public class MagicPowerUp : Powerup
 
  public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player") && !other.isTrigger)
         {
             playerInventory.currentMagic += magicValue;
             powerupSignal.Raise();

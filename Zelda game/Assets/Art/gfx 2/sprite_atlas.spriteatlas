@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: ea07022d532de4c96860cbac1793550f, type: 3}
-    totalSpriteSurfaceArea: 1179145
+    totalSpriteSurfaceArea: 2443257
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -63,6 +63,7 @@ SpriteAtlas:
   - {fileID: 21300004, guid: f2c2a4210c76f42ab920eac77df187a6, type: 3}
   - {fileID: 21300006, guid: f2c2a4210c76f42ab920eac77df187a6, type: 3}
   - {fileID: 21300000, guid: d18c607123becd44f8392bcf548eb82b, type: 3}
+  - {fileID: 21300000, guid: d7fff8424ec3f104b9a3c300e56a98b9, type: 3}
   - {fileID: 21300000, guid: 474f9f627ffe01341bd319338ad21ec1, type: 3}
   - {fileID: 21300100, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300102, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
@@ -183,6 +184,7 @@ SpriteAtlas:
   - {fileID: 21300218, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300000, guid: 053658f4d5fd2834cb2cdf6a94746dda, type: 3}
   - {fileID: 21300000, guid: e20a3a25b6f7a234d86bb5c9231cae10, type: 3}
+  - {fileID: 21300000, guid: 8418654607d859a409aae24cfd1a4691, type: 3}
   - {fileID: 21300000, guid: 2247469810eda9648a036c75c97e3da1, type: 3}
   - {fileID: 21300000, guid: 6c4d2709c31f4fe45b11e5685ad99668, type: 3}
   - {fileID: 21301654, guid: 275c0a091801c4f3cbf7d43ef7702e68, type: 3}
@@ -1773,7 +1775,6 @@ SpriteAtlas:
   - {fileID: 21300044, guid: 9df678dbec5f64ddd8011fc2e4fb1003, type: 3}
   - {fileID: 21300000, guid: 021b09bc8caaa4f72a1a657148cac6cd, type: 3}
   - {fileID: 21300000, guid: e92e12cc9db055b4680fa74a9e563321, type: 3}
-  - {fileID: 21300000, guid: 0807b21d17e3a4806be0ab8aec39b4b5, type: 3}
   - {fileID: 21300000, guid: 7ac29c1d26500d148ad8a8e5a4f0167e, type: 3}
   - {fileID: 21300004, guid: 5216ae3d909dee0468ab880257508855, type: 3}
   - {fileID: 21300006, guid: 5216ae3d909dee0468ab880257508855, type: 3}
@@ -1839,6 +1840,7 @@ SpriteAtlas:
   - modified gfx melee sprites_2
   - modified gfx melee sprites_3
   - dodsboinaNB
+  - bgforest
   - image
   - cave_50
   - cave_51
@@ -1959,6 +1961,7 @@ SpriteAtlas:
   - cave_109
   - door2
   - magic bottle
+  - sim
   - Dragon
   - bow
   - Overworld_827
@@ -3549,7 +3552,6 @@ SpriteAtlas:
   - log_22
   - NPC_test
   - Xico
-  - font
   - arrow
   - dog_2
   - dog_3
