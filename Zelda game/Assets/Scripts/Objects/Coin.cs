@@ -20,6 +20,7 @@ public class Coin : Powerup {
     {
         if (other.CompareTag("Player") && !other.isTrigger)
         {
+            SoundManagerScript.PlaySound("Bonus");
             playerInventory.numberOfCoins += 1;
             powerupSignal.Raise();
             Destroy(this.gameObject);

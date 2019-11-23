@@ -8,7 +8,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        SoundManagerScript.PlaySound("ChillMusic");
     }
 
     // Update is called once per frame
