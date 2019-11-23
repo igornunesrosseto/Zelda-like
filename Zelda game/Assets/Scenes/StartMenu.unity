@@ -212,8 +212,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -11}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -4, y: -11.67}
+  m_SizeDelta: {x: -28.19, y: -1.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &360037968
 MonoBehaviour:
@@ -519,7 +519,7 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1014,7 +1014,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Igor's Adventure        Game
+  m_text: Projeto Adventure
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6fc3929333f412544acb33f53b9b5ade, type: 2}
   m_sharedMaterial: {fileID: 21776203544071780, guid: 6fc3929333f412544acb33f53b9b5ade,
@@ -1084,12 +1084,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -46.39038, w: 0}
   m_textInfo:
     textComponent: {fileID: 2070182723}
-    characterCount: 28
+    characterCount: 17
     spriteCount: 0
-    spaceCount: 9
-    wordCount: 3
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 2
+    lineCount: 1
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0

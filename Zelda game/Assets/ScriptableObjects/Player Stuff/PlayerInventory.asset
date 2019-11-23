@@ -15,7 +15,7 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   items:
   - {fileID: 11400000, guid: 96ee9a8e0e5dda048a116c8ee8655709, type: 2}
-  numberOfKeys: 9
-  numberOfCoins: 45
+  numberOfKeys: 103
+  numberOfCoins: 30
   maxMagic: 10
-  currentMagic: 4
+  currentMagic: 10
