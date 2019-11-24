@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: ea07022d532de4c96860cbac1793550f, type: 3}
-    totalSpriteSurfaceArea: 3148297
+    totalSpriteSurfaceArea: 3172873
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -207,6 +207,22 @@ SpriteAtlas:
   - {fileID: 21300216, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300218, guid: 13df0c437eae8462e8f08623eb510cec, type: 3}
   - {fileID: 21300000, guid: 406c7953e2c43b9498a29fbda4578f0f, type: 3}
+  - {fileID: 21300026, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300024, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300022, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300020, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300000, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300002, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300030, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300004, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300028, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300006, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300008, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300010, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300012, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300014, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300016, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
+  - {fileID: 21300018, guid: c9deda53abc8ea84080d1d740323a65f, type: 3}
   - {fileID: 21300000, guid: da7117a386786014dbe8dbb52305ae2e, type: 3}
   - {fileID: 21300000, guid: 3b835ab36ec634a4bba472e9bdaa0348, type: 3}
   - {fileID: 21300000, guid: d85921c3b35b5a5458ff202f97e7536f, type: 3}
@@ -1904,6 +1920,22 @@ SpriteAtlas:
   - {fileID: 21300020, guid: 11d4bf4ded462694785545b1805fb054, type: 3}
   - {fileID: 21300022, guid: 11d4bf4ded462694785545b1805fb054, type: 3}
   - {fileID: 21300000, guid: 577f91ad7bdafcc43be027eef1679ce3, type: 3}
+  - {fileID: 21300012, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300014, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300008, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300010, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300004, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300006, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300000, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300002, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300016, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300018, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300030, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300028, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300022, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300020, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300026, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
+  - {fileID: 21300024, guid: 5b04faad3d7e4cf418523695c527e6de, type: 3}
   - {fileID: 21300000, guid: bd11bcadd1a6d8b4c99203bb78a56a5d, type: 3}
   - {fileID: 21300000, guid: c4f2d6bd20a2213479dbd723d9247a80, type: 3}
   - {fileID: 21300000, guid: f8c36bdd8b4914048906996dc8ef4ef4, type: 3}
@@ -2078,6 +2110,22 @@ SpriteAtlas:
   - cave_108
   - cave_109
   - Item__68
+  - orge.undead_13
+  - orge.undead_12
+  - orge.undead_11
+  - orge.undead_10
+  - orge.undead_0
+  - orge.undead_1
+  - orge.undead_15
+  - orge.undead_2
+  - orge.undead_14
+  - orge.undead_3
+  - orge.undead_4
+  - orge.undead_5
+  - orge.undead_6
+  - orge.undead_7
+  - orge.undead_8
+  - orge.undead_9
   - Item__61
   - Item__01
   - Item__31
@@ -3775,6 +3823,22 @@ SpriteAtlas:
   - orge attack sprites_10
   - orge attack sprites_11
   - Item__14
+  - orge attack sprites.undead_6
+  - orge attack sprites.undead_7
+  - orge attack sprites.undead_4
+  - orge attack sprites.undead_5
+  - orge attack sprites.undead_2
+  - orge attack sprites.undead_3
+  - orge attack sprites.undead_0
+  - orge attack sprites.undead_1
+  - orge attack sprites.undead_8
+  - orge attack sprites.undead_9
+  - orge attack sprites.undead_15
+  - orge attack sprites.undead_14
+  - orge attack sprites.undead_11
+  - orge attack sprites.undead_10
+  - orge attack sprites.undead_13
+  - orge attack sprites.undead_12
   - Item__00
   - magic bar
   - Item__43
