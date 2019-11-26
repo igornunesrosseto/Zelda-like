@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip MainMenuMusic, coinSound;
+    public static AudioClip MainMenuMusic, coinSound, swordSlash;
     static AudioSource audioSrc;
 
 
@@ -13,7 +13,7 @@ public class SoundManagerScript : MonoBehaviour
     {
         MainMenuMusic = Resources.Load<AudioClip>("ChillMusic");
         coinSound = Resources.Load<AudioClip>("Bonus");
-
+        swordSlash = Resources.Load<AudioClip>("swing");
         audioSrc = GetComponent<AudioSource>();
     }
 
@@ -32,6 +32,9 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "Bonus":
                 audioSrc.PlayOneShot(coinSound);
+                break;
+            case "swing":
+                audioSrc.PlayOneShot(swordSlash);
                 break;
         }
     }

@@ -222,7 +222,7 @@ PrefabInstance:
     - target: {fileID: 114118306761387566, guid: 6e1a1e1e721cd0e45b1b8896f64a9d3e,
         type: 3}
       propertyPath: m_Text
-      value: 'Acho que meu pai foi comprar cigarro.
+      value: 'Onde estaria meu pai?
 
 '
       objectReference: {fileID: 0}

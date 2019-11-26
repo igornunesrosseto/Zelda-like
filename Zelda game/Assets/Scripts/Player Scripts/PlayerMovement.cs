@@ -67,6 +67,8 @@ public class PlayerMovement : MonoBehaviour {
            && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
+            SoundManagerScript.PlaySound("swing");
+
         }
         else if (Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack
            && currentState != PlayerState.stagger)
