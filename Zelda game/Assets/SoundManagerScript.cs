@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-    public static AudioClip MainMenuMusic, coinSound, swordSlash;
+    public static AudioClip MainMenuMusic, coinSound, swordSlash, deathOgre, deathLog;
     static AudioSource audioSrc;
 
 
@@ -13,6 +13,9 @@ public class SoundManagerScript : MonoBehaviour
     {
         MainMenuMusic = Resources.Load<AudioClip>("ChillMusic");
         coinSound = Resources.Load<AudioClip>("Bonus");
+        swordSlash = Resources.Load<AudioClip>("swing");
+        deathOgre = Resources.Load<AudioClip>("som_morte_ogro1");
+        deathLog = Resources.Load<AudioClip>("som_morte_tronco1");
         swordSlash = Resources.Load<AudioClip>("swing");
         audioSrc = GetComponent<AudioSource>();
     }
@@ -35,6 +38,12 @@ public class SoundManagerScript : MonoBehaviour
                 break;
             case "swing":
                 audioSrc.PlayOneShot(swordSlash);
+                break;
+            case "som_morte_ogro1":
+                audioSrc.PlayOneShot(deathOgre);
+                break;
+            case "som_morte_tronco1":
+                audioSrc.PlayOneShot(deathLog);
                 break;
         }
     }

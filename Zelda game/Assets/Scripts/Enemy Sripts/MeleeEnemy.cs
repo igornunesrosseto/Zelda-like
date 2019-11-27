@@ -17,6 +17,16 @@ public class MeleeEnemy : log
         
     }
 
+    public override void DeathEffect()
+    {
+        if (deathEffect != null)
+        {
+            GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
+            Destroy(effect, deathEffectDelay);
+            SoundManagerScript.PlaySound("som_morte_ogro1");
+        }
+    }
+
     public override void CheckDistance()
     {
         if (Vector3.Distance(target.position,

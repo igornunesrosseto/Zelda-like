@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour {
 
     [Header("Death Effects")]
     public GameObject deathEffect;
-    private float deathEffectDelay = 1f;
+    public float deathEffectDelay = 1f;
     public LootTable thisLoot;
 
     [Header("Death Signals")]
@@ -73,12 +73,13 @@ public class Enemy : MonoBehaviour {
 
     // death animation
 
-    private void DeathEffect()
+    public virtual void DeathEffect()
     {
         if(deathEffect != null)
         {
             GameObject effect = Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(effect, deathEffectDelay);
+            SoundManagerScript.PlaySound("som_morte_tronco1");
         }
     }
 
